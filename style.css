@@ -1,0 +1,77 @@
+header{
+    background-color:#333 ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+#logo
+{
+    width:100px;
+
+}
+#form
+{
+    background-color: gray;
+    border:2px solid white;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    gap: 10px;
+}
+.nav-link{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    border:2px solid white;
+    border-radius: 10px;
+}
+#tomato
+{
+    font-weight: 700;
+}
+
+body
+{
+    /*background-color: grey;*/
+    color:black;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding:20px 0;
+    
+}
+section{
+   padding: 20px;; 
+}
+#Events
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.event-cards{
+    text-align: center;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.3);
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+}
+#detailing
+{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 2px;
+    border:5px solid grey;
+    text-decoration: none;
+}
+footer{
+    background-color: #333;
+    color: aliceblue;
+    display: flex;
+    padding: 20px 0;/*Padding in CSS (Cascading Style Sheets) is a property that allows you to create space between the content of an element and its border. */
+    justify-content: space-evenly;
+    position: absolute;
+    width:100%;
+    bottom: 0;
+}
